@@ -47,7 +47,7 @@ export default function ExpenseUploader() {
       formData.append('business', activeTab);
 
       // Replace with your n8n webhook URL
-      const n8nWebhookUrl = 'https://ralexo1881.app.n8n.cloud/webhook/6d830363-ae87-468d-a130-ce676a53825d';
+      const n8nWebhookUrl = 'https://ralexo1881.app.n8n.cloud/webhook-test/6d830363-ae87-468d-a130-ce676a53825d';
 
       const response = await fetch(n8nWebhookUrl, {
         method: 'POST',
